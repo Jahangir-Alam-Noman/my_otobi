@@ -1,0 +1,512 @@
+
+
+/*nav1*/
+.navbar-default{
+    background-color: #adbcc1;
+    border-radius: 0px;
+    border: none;
+    border-bottom:1px solid #c0cace ;
+
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    margin-top: -15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+    background-color: white;
+    border-radius: 5px;
+    color: #33c19c;
+
+}
+
+.navbar-default .navbar-nav>li{
+    margin-top: 15px;
+    border-left: 1px solid  #c0cace;
+    height: 20px;
+}
+
+
+.navs1{
+    margin-bottom: 0px;
+}
+
+
+/*nav2*/
+
+.nav2{
+    background-color: #adbcc1;
+}
+.navs2{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin-bottom: 0;
+}
+.navbar-brand{
+    margin-top: -15px;
+}
+
+.navbar3 .navbar-nav>li:first-child{
+    border: none;
+}
+.navbar3 .navbar-nav>li:nth-child(2){
+    border: none;
+}
+.navbar3 .navbar-nav>li>a{
+    color: white;
+    margin-top: -15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+/*search*/
+
+
+
+.inputs{
+    margin-top: 10px;
+    border-radius: 25px;
+}
+.p{
+    color: white;
+}
+.p > a{
+    color: white;
+}
+
+/*search*/
+
+
+#custom-search-input {
+    margin:0;
+    margin-top: 10px;
+    padding: 0;
+}
+
+#custom-search-input .search-query {
+    padding-right: 3px;
+    padding-right: 4px \9;
+    padding-left: 3px;
+    padding-left: 4px \9;
+    /* IE7-8 doesn't have border-radius, so don't indent the padding */
+
+    margin-bottom: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#custom-search-input button {
+    border: 0;
+    background: none;
+    /** belows styles are working good */
+    padding: 2px 5px;
+    margin-top: 2px;
+    position: relative;
+    left: -28px;
+    /* IE7-8 doesn't have border-radius, so don't indent the padding */
+    margin-bottom: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.search-query:focus + button {
+    z-index: 3;
+}
+
+/*breadcrumbs*/
+
+
+.breadcrumb{
+    margin-top: -25px;
+    padding: 25px 0 20px 30px;
+    background-color: #333333;
+    border-radius: 0px;
+}
+.breadcrumb span:first-child > a{
+    color: white;
+
+}
+.breadcrumb span:last-child {
+    color: #bd975f;
+
+}
+.glyphicon-chevron-right{
+    color: #9c9380;
+}
+
+
+
+
+/*Map Css starts*/
+
+
+#map{
+    height: 400px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#googleMap{
+    padding: 80px 0;
+}
+
+.brdr{
+    border-bottom: 1px solid #b8b6ba;
+}
+
+
+/*form*/
+
+#form .container p:first-child{
+    padding-bottom: 20px;
+}
+
+.panel-login {
+    border-color: #ccc;
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+}
+.panel-login>.panel-heading {
+    color: #00415d;
+    background-color: #fff;
+    border-color: #fff;
+    text-align:center;
+}
+.panel-login>.panel-heading a{
+    text-decoration: none;
+    color: #666;
+    font-weight: bold;
+    font-size: 15px;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+.panel-login>.panel-heading a.active{
+    color: #029f5b;
+    font-size: 18px;
+}
+.panel-login>.panel-heading hr{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    clear: both;
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0));
+    background-image: -moz-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+    background-image: -ms-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+    background-image: -o-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+}
+.panel-login input[type="text"],.panel-login input[type="email"],.panel-login input[type="password"] {
+    height: 45px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+.panel-login input:hover,
+.panel-login input:focus {
+    outline:none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-color: #ccc;
+}
+.btn-login {
+    background-color: #59B2E0;
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+    height: auto;
+    font-weight: normal;
+    padding: 14px 0;
+    text-transform: uppercase;
+    border-color: #59B2E6;
+}
+.btn-login:hover,
+.btn-login:focus {
+    color: #fff;
+    background-color: #53A3CD;
+    border-color: #53A3CD;
+}
+.forgot-password {
+    text-decoration: underline;
+    color: #888;
+}
+.forgot-password:hover,
+.forgot-password:focus {
+    text-decoration: underline;
+    color: #666;
+}
+
+.btn-register {
+    background-color: #1CB94E;
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+    height: auto;
+    font-weight: normal;
+    padding: 14px 0;
+    text-transform: uppercase;
+    border-color: #1CB94A;
+}
+.btn-register:hover,
+.btn-register:focus {
+    color: #fff;
+    background-color: #1CA347;
+    border-color: #1CA347;
+}
+
+
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,800,800italic,900,900italic);
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+
+
+/* myfooter */
+
+.myfooter {
+    padding: 50px 0 20px 0;
+    background-color: #adbcc1;
+    color: #35404f;
+}
+
+.myfooter .title-widget {
+    text-align: left;
+    color:#fff;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 1;
+    position: relative;
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 25px;
+    margin-left: 0;
+    padding-left: 28px;
+}
+
+.myfooter .title-widget::before {
+    background-color: #ea5644;
+    content: "";
+    height: 22px;
+    left: 0px;
+    position: absolute;
+    top: -2px;
+    width: 5px;
+}
+
+.myfooter .social-icon{padding:0px;margin:0px;}
+.myfooter .social-icon a{display:inline-block;color:#fff;font-size:25px;padding:5px;}
+.myfooter .acount-icon a{display:block;color:#fff;font-size:18px;padding:5px;text-decoration:none;}
+.myfooter .acount-icon .fa{margin-right:25px;}
+
+
+.myfooter .category a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 20px;
+    margin: 1px;
+    border-radius:4px;
+    margin-top: 6px;
+    background-color: black;
+    border: solid 1px #fff;
+}
+.myfooter ul {
+    font-size: 13px;
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 15px;
+    color: #7F8C8D;
+}
+
+
+.myfooter .payment{margin:0px;padding:0px;list-style-type:none}
+.myfooter .payment li{list-style-type:none}
+.myfooter .payment li a {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    float: left;
+    font-size: 25px;
+    padding: 10px 10px;
+}
+
+.myfooter ul.social {
+    list-style: none;
+    display: inline;
+    margin-left:0 !important;
+    padding: 0;
+}
+.myfooter ul.social li {
+    display: inline;
+    margin: 0 5px;
+}
+.myfooter .social li:hover {
+    transform: scale(1.15) rotate(360deg);
+    -webkit-transform: scale(1.1) rotate(360deg);
+    -moz-transform: scale(1.1) rotate(360deg);
+    -ms-transform: scale(1.1) rotate(360deg);
+    -o-transform: scale(1.1) rotate(360deg);
+}
+
+.myfooter .social a.icoRss:hover {
+    background-color: #F56505;
+}
+.myfooter .social a.icoFacebook:hover {
+    background-color:#3B5998;
+}
+.myfooter .social a.icoTwitter:hover {
+    background-color:#33ccff;
+}
+.myfooter .social a.icoGoogle:hover {
+    background-color:#BD3518;
+}
+.myfooter .social a.icoVimeo:hover {
+    background-color:#0590B8;
+}
+.myfooter .social a.icoLinkedin:hover {
+    background-color:#007bb7;
+}
+.myfooter .social a.icoRss:hover i, .myfooter .social a.icoFacebook:hover i, .myfooter .social a.icoTwitter:hover i,
+.myfooter .social a.icoGoogle:hover i, .myfooter .social a.icoVimeo:hover i, .myfooter .social a.icoLinkedin:hover i {
+    color:#fff;
+}
+a.myfooter .socialIcon:hover, .myfooter .socialHoverClass {
+    color:#44BCDD;
+}
+
+.myfooter .social-circle li a {
+    display:inline-block;
+    position:relative;
+    margin:0 auto 0 auto;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    border-radius:50%;
+    text-align:center;
+    width: 50px;
+    height: 50px;
+    font-size:20px;
+}
+.myfooter .social-circle li i {
+    margin:0;
+    line-height:50px;
+    text-align: center;
+}
+
+.myfooter .social-circle li a:hover i, .triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.myfooter .social-circle i {
+    color: #fff;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.myfooter-bottom {
+    background: #E3E3E3;
+    border-top: 1px solid #DDDDDD;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.myfooter-bottom p.pull-left {
+    padding-top: 6px;
+}
+.payments {
+    font-size: 1.5em;
+}
+/*  zooming class */
+
+
+.zoom:hover {
+    -webkit-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    -o-transform: scale(1.4);
+}
+.zoom {
+    -webkit-transform: scale(1);
+    /* Browser Variations: */
+
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+}
+
+
+
+
+
+
+
+
+
+/*media query*/
+
+
+
+@media (min-width: 320px) and (max-width: 480px){
+    .navbar-default .navbar-nav>li{
+        padding-top: 20px;
+
+    }
+
+    .navbar3 .navbar-toggle{
+        margin-right: 30px;
+    }
+
+    .navbar-brand{
+        margin-top: -10px;
+    }
+    .navbar-brand >img{
+        width: 120px;
+    }
+    .navs2 .form-group{
+        margin-top: 20px;
+    }
+
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+    .navbar-brand >img{
+        width: 120px;
+    }
+
+    .navbar-default .navbar-nav>li>a {
+
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+
+}

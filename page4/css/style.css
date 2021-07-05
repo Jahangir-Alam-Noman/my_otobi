@@ -1,0 +1,595 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+
+body{
+    overflow-x: hidden;
+}
+
+
+
+/*nav1*/
+.navbar-default{
+    background-color: #adbcc1;
+    border-radius: 0px;
+    border: none;
+    border-bottom:1px solid #c0cace ;
+
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    margin-top: -15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+    background-color: white;
+    border-radius: 5px;
+    color: #33c19c;
+
+}
+
+.navbar-default .navbar-nav>li{
+    margin-top: 15px;
+    border-left: 1px solid  #c0cace;
+    height: 20px;
+}
+
+
+.navs1{
+    margin-bottom: 0px;
+}
+
+
+/*nav2*/
+
+.nav2{
+    background-color: #adbcc1;
+}
+.navs2{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin-bottom: 0;
+}
+.navbar-brand{
+    margin-top: -15px;
+}
+
+.navbar3 .navbar-nav>li:first-child{
+    border: none;
+}
+.navbar3 .navbar-nav>li:nth-child(2){
+    border: none;
+}
+.navbar3 .navbar-nav>li>a{
+    color: white;
+    margin-top: -15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+/*search*/
+
+
+
+.inputs{
+    margin-top: 10px;
+    border-radius: 25px;
+}
+.p{
+    color: white;
+}
+.p > a{
+    color: white;
+}
+.navbar-right {
+    float: right!important;
+    margin-right: -31px;
+    /* margin-top: -1px; */
+}
+
+/*breadcrumbs*/
+
+
+.breadcrumb{
+    margin-top: -25px;
+    padding: 25px 0 20px 30px;
+    background-color: #333333;
+    border-radius: 0px;
+}
+.breadcrumb span:first-child > a{
+    color: white;
+
+}
+.breadcrumb span:last-child {
+    color: #bd975f;
+
+}
+.glyphicon-chevron-right{
+    color: #9c9380;
+}
+
+
+/*search*/
+
+
+#custom-search-input {
+    margin:0;
+    margin-top: 10px;
+    padding: 0;
+}
+
+#custom-search-input .search-query {
+    padding-right: 3px;
+    padding-right: 4px \9;
+    padding-left: 3px;
+    padding-left: 4px \9;
+    /* IE7-8 doesn't have border-radius, so don't indent the padding */
+
+    margin-bottom: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#custom-search-input button {
+    border: 0;
+    background: none;
+    /** belows styles are working good */
+    padding: 2px 5px;
+    margin-top: 2px;
+    position: relative;
+    left: -28px;
+    /* IE7-8 doesn't have border-radius, so don't indent the padding */
+    margin-bottom: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.search-query:focus + button {
+    z-index: 3;
+}
+
+
+
+
+
+/*header starts*/
+ #header .navbar-default{
+     background-color: white;
+     border: none;
+     border-radius: 0px;
+     height: 80px;
+     margin-top:20px;
+
+ }
+
+ #header .navbar-default:hover{
+    / background-color:seashell ;
+
+
+ }
+ #header:hover{
+    / background-color:mediumslateblue;
+
+ }
+#body:hover{
+         /background-color:skyblue ;
+
+
+
+}
+ #header .navbar-brand:hover{
+     font-size:90px;
+
+
+
+
+     color:green;
+
+
+ }
+ #header .container .navber-default:hover{
+
+    / background-color:skyblue ;
+
+
+
+     color:dodgerblue;
+
+
+ }
+ #header .navbar-brand{
+     font-size:40px ;
+ }
+/*body starts*/
+
+#body .container-1{
+     background-color: darkgrey;
+     height: 290px;
+     margin-bottom: 40px;
+
+
+ }
+
+ #body .container-1:hover {
+     /background-color:lightgreen;
+     height: 360px;
+     margin-bottom: 80px;
+
+ }
+#body .container-1 .img1{
+    padding: 20px 20px 20px 30px;
+}
+ #body .container-1 .txt1{
+     padding: 50px 20px 20px 30px;
+ }
+
+ #body .container-2 .txt3{
+     padding: 50px 20px 20px 30px;
+ }
+
+ #body .container-3 .txt4{
+     padding: 50px 20px 20px 30px;
+ }
+
+ #body .container-1 .txt1 .btn{
+    color:black;
+ }
+
+ #body .container-1 .txt1 .btn{
+     color:black;
+ }
+
+ #body .container-2 .txt3 .btn{
+     color:black;
+ }
+
+ #body .container-3 .txt4 .btn{
+     color:black;
+ }
+ #body .container1.txt2 p{
+
+    line-height: 1.6em;
+ }
+ #body .container-2 .img2{
+     padding: 20px 20px 20px 30px;
+
+ }
+
+
+ #body .container-3 .img3{
+     padding: 20px 20px 20px 30px;
+
+ }
+
+ #body .container-2{
+
+     background-color: darkgrey;
+     height: 290px;
+     margin-bottom: 40px;
+
+ }
+
+ #body .container-2:hover{
+
+
+     height: 290px;
+     margin: 30px;
+
+ }
+ #body .container-3{
+     background-color: darkgrey;
+     height: 290px;
+     margin-bottom: 40px;
+ }
+
+ #body .container-3:hover{
+    / background-color:aqua;
+     height: 380px;
+     margin-bottom: 40px;
+ }
+ /*footer starts*/
+ #first-footer img {
+     margin-top:62px;
+ }
+ #first-footer .about {
+     margin-top:100px;
+ }
+ #first-footer .information {
+     margin-top:100px;
+ }
+ #first-footer .account {
+     margin-top:100px;
+ }
+ #first-footer .newsletter {
+     margin-top:100px;
+ }
+
+ #first-footer .container a {
+     color: black;
+ }
+
+ #first-footer .container a:hover {
+     color: hotpink;
+ }
+ #second-footer .container{
+     margin-top: 80px;
+ }
+ #first-footer{
+     background-color: #888888;
+     height: 400px;
+     border-top:2px solid silver;
+     border-bottom:2px solid silver;
+ }
+
+ #first-footer:hover{
+    / background-color:yellow;
+     height: 450px;
+ }
+ #first-footer .newsletter .input-group {
+
+     border-bottom-right-radius: 20%;
+     margin-top: 20px;
+ }
+ #first-footer .newsletter .input-group .btn{
+
+    background-color: lightgreen;
+ }
+ #first-footer .newsletter .input-group-btn .btn-default .sub{
+
+     font-size:13px;
+     margin-left:-5px;
+ }
+ #first-footer .input-group .form-control {
+     width: 165px;
+     font-size: 12px;
+ }
+ #first-footer .newsletter .input-group-btn  .btn-default {
+
+     width:170px;
+    height: 34px;
+     font-size: 11px;
+ }
+#first-footer .newsletter .input-group-btn  {
+    width: 160px;
+    font-size: 10px;
+    height: 34px;
+}
+
+#first-footer .newsletter .input-group-btn  .btn-default .sub{
+
+    font-size: 11px;
+}
+
+ #second-footer .container{
+     height: 140px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*media query-custom responsive  {
+*/
+
+ @media (min-width: 320px) and (max-width: 480px) {
+
+     #header .navbar-form {
+         padding: 12px 36px;
+         margin: auto;
+         border: none;
+         -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1), 0 1px 0 rgba(255, 255, 255, .1);
+         box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1), 0 1px 0 rgba(255, 255, 255, .1);
+     }
+
+     .navbar-brand {
+         height: 50px;
+         padding: 6px 23px;
+
+     }
+
+     #body .container-1 .txt1
+     .h4 {
+         margin-top: 13px;
+         margin-bottom: 8px;
+         font-size: medium;
+     }
+
+     #body .container-1:hover {
+     background-color:lightgreen;
+
+     }
+     #body .container-2 .row {
+         margin-top: 40px;
+     }
+     #body .container-2:hover {
+         background-color:lightgreen;
+
+     }
+     #body .container-2 .txt3 {
+         padding: 156px 20px 20px 30px;
+     }
+
+     #body .container-2 .txt3 .h4 {
+         font-size: medium;
+     }
+
+     #body .container-3 .row .txt4 {
+         margin-top: 50px;
+     }
+
+     #body .container-3 .row .txt4 .h4 {
+         font-size: medium;
+     }
+     #body .container-3:hover {
+      background-color:aqua;
+
+     }
+     #first-footer .about {
+         margin-top: 200px;
+     }
+
+     #body .container-1:hover {
+         background-color: lightgreen;
+         height: 260px;
+         margin-bottom: 80px;
+
+     }
+
+     #body .container-3:hover {
+         background-color: aqua;
+         height: 280px;
+         margin-bottom: 40px;
+     }
+ }
+
+@media (min-width: 360px) and (max-width: 640px) {
+
+    #first-footer .newsletter .input-group-btn  .btn-default {
+
+        width:175px;
+    }
+
+}
+
+@media (min-width: 1280px) and (max-width: 600px) {
+
+    #first-footer .newsletter .input-group-btn   {
+width: 170px;
+
+    }
+
+}
+
+
+ /*media query-custom responsive  {
+ */
+ @media (min-width: 768px) and (max-width: 1024px){
+
+     .navbar-right {
+         float: right!important;
+         margin-right: -39px;
+         /* margin-top: -1px; */
+     }
+     #header .navbar-brand {
+         font-size: 52px;
+         margin-top: auto;
+     }
+      #header .navbar-form .input-group > .form-control {
+         width: 109%;
+     }
+      #body .row .txt2 p{
+          font-size: 13px;
+          line-height:1.2em;
+
+      }
+     #first-footer .about {
+            margin-top:100px;
+         padding-right: 19px;
+
+
+        }
+     #first-footer  p {
+         font-size: 12px;
+
+     }
+     #first-footer .information .our {
+         margin-bottom: -3px;
+
+     }
+     #first-footer .about {
+         /margin-top: 70px;
+
+     }
+     #first-footer .newsletter .input-group .btn {
+          width: 70px;
+         font-size: 10px;
+         height: 34px;
+      }
+     #first-footer .input-group .form-control{
+         width: 110px;
+         font-size: 8px;
+     }
+     #second-footer .container {
+         height: 78px;
+         margin-top: 28px;
+     }
+     #second-footer .carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {
+         display: block;
+         max-width: 100%;
+         height: auto;
+     }
+     #second-footer .carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {
+         margin-top: -5px;
+     }
+     #body .row .txt2 p {
+         font-size: 12px;
+         line-height: 1.2em;
+     }
+
+}
+
+
+ /*media query-custom responsive  {
+ */
+ @media (min-width:980px) and (max-width: 1280px){
+     #header .container .row {
+         margin-right: 1px;
+         margin-left: -15px;
+     }
+     #header .input-group .form-control{
+         width:100px;
+         font-size: 10px;
+     }
+     #header .navbar-form .input-group > .form-control {
+         width: 105%;
+         font-size: 13px;
+     }
+     #first-footer .input-group .form-control{
+         width: 120px;
+         font-size: 12px;
+     }
+
+     #first-footer .row .a {
+         margin-left:-20px;
+         margin-right:20px;
+
+     }
+
+ }
+
+@media (min-width:768px) and (max-width: 1024px){
+
+    #first-footer .newsletter .input-group-btn  .btn-default .sub{
+
+        font-size: 10px;
+    }
+    }
+
+@media (min-width:1024px) and (max-width: 1366px){
+
+    #first-footer .newsletter .input-group-btn  .btn-default {
+
+
+        width:120px;
+        height: 34px;
+        font-size: 11px;
+    }
+}
